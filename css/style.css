@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 80px;
+    padding: 15px;
+    
+    
+}
+.menu{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+.item{
+    padding: 10px;
+    color: darkblue;
+}
+.signin-btn{
+    color: white;
+    background: #B96BEB;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.intro-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    /* grid-gap: 1rem; */
+    margin-top: 50px;
+    width: 90%;
+    margin:auto;
+}
+.right-section img{
+    width: 650px;
+}
+.left-section{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.left-section h1{
+    font-size: 5.2rem;
+    padding: 15px 0;
+    color: #3E4794;
+}
+.left-section p{
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+.left-section button{
+    width: 30%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    background: #B96BEB;
+    color: white;
+    font-size: 1.0rem;
+}
+.backdrop{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 700px;
+    width: 750px;
+    z-index: -1;
+}
+.vector{
+    position: absolute;
+    height: 150px;
+    left: 760px;
+    top: 450px;
+}
+.vector-dot{
+    position: absolute;
+    left: 830px;
+    top: 440px;
+    height: 40px;
+}
+@media only screen and (max-width: 1300px){
+    .backdrop{
+        display: none;
+    }
+    .vector{
+        display: none;
+    }
+    .vector-dot{
+        display: none;
+    }
+}
