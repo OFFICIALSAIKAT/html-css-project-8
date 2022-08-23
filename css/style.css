@@ -35,7 +35,6 @@ nav{
 .intro-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
-    /* grid-gap: 1rem; */
     margin-top: 50px;
     width: 90%;
     margin:auto;
@@ -55,6 +54,7 @@ nav{
     color: #3E4794;
 }
 .left-section p{
+    width: 500px;
     font-size: 1.5rem;
     padding: 15px 0;
 }
